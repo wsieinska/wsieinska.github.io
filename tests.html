@@ -80,7 +80,7 @@
         <h6 class="text text-success text-center">
         A computer science portal for geeks
         </h6>
-        <table class="table-striped border-success">
+        <table id="table" class="table-striped border-success">
           <thead>
           <tr>
             <th data-field="id">
@@ -235,7 +235,7 @@
 
 	// Use the given data to create
 	// the table and display it
-	$('table').bootstrapTable({
+	$('#table').bootstrapTable({
 		data: mydata
 	});
 	});
